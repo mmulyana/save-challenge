@@ -23,7 +23,7 @@ function App() {
   }
 
   return (
-    <div className='py-20 container max-w-[800px] '>
+    <div className='py-12 md:py-20 container max-w-[800px] '>
       <h1 className='text-center mb-10 text-3xl text-gray-800'>Rp 20 juta dalam 52 minggu</h1>
       <div className='grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] gap-4'>
         {saves.map(({ id, title, isCheck }) => (
